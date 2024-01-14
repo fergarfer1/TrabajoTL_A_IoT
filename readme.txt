@@ -1,6 +1,4 @@
 Autores: Manuel Manzano (@manmanher) y Fernando Garrucho (fergarfer1).
 Este repositorio contiene los códigos y dataset recopilado para el 3º Trabajo de la asignatura Aplicaciones IoT, del Máster Universitario de Ingeniería de Telecomunicación de la Universidad de Sevilla.
-- En la carpeta datos se encuentra el dataset utilizado
-- En la carpeta Code el código python, diferenciandose los siguientes dos archivos.
-	- primera.py: El código ejecutado en la Rpi para recopilar los datos, fue ejecutados 5 veces, una por clase, realizando el movimiento correspondiente de forma repetida en cada ejecución.
-	- CNN1D.py:   El código de la red neuronal donde se procesa el dataset generado, se entrena la red neuronal y se hacen los tests correspondientes para calcular su Accuracy.
+- En la carpeta datos se encuentra el dataset utilizado. El dataset contiene 53 clases de cartas (52 correspondientes a la baraja francesa y un joker) divididos en 7624 imagenes de entrenamiento, 265 imágenes de validación y 265 imágenes de test. Las imágenes son de 224x224x3.
+- Trabajo_TL.ipynb: Contiene el código utilizado para el entrenamiento de la red neuronal convolucional que resuelve el problema de clasificacion usando el dataset con Transfer Learning.
